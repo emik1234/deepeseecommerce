@@ -1,5 +1,3 @@
-@import url("open-iconic/font/css/open-iconic-bootstrap.min.css");
-
 .bg-img {
   background-image: url("Images/deepseeLogo.jpg");
   background-repeat: no-repeat;
@@ -13,7 +11,7 @@
 
 .bottom {
   background: rgba(114, 194, 203, 1);
-  background-size: cover;
+  background-size: contain;
 }
 
 .logo {
@@ -34,10 +32,6 @@
 .underline {
   padding-bottom: 7px;
   --bg-h: 1.5px;
-}
-
-.font-dm-serif-display {
-  font-family: "DM Serif Display", sans-serif;
 }
 
 i {
