@@ -1,18 +1,29 @@
 body,
 html {
-  background: rgba(114, 194, 203, 1);
+  background-image: linear-gradient(
+    rgba(115, 194, 201, 255) 40%,
+    rgba(115, 194, 201, 0.795),
+    rgba(115, 194, 201, 255),
+    rgba(75, 168, 175, 255)
+  );
 }
 
 .bg-img {
   background-image: url("images/deepseeLogo.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: contain;
 }
 
 .box {
   aspect-ratio: 1 / 1;
   margin-bottom: 10px;
   max-width: inherit;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(75, 168, 175, 255),
+    rgba(111, 190, 197, 0.767)
+  );
 }
 
 .gap {
@@ -21,10 +32,24 @@ html {
 }
 
 .placeholder-white {
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 0;
 }
 
 .placeholder-white::placeholder {
   color: white;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.link-style {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  #navbarNav {
+    background-color: rgba(255, 255, 255, 0.185);
+  }
 }
