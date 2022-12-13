@@ -7,14 +7,16 @@
     <title>Deepsee Commerce</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
     <script src="js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
     <main class role="main">
       <div class="bg-img m-0">
-        <nav
-          class="navbar navbar-expand-md py-3 justify-content-between px-0 mx-0"
-        >
+        <nav class="navbar navbar-expand-md py-3 px-0 mx-0">
           <div>
             <a class="navbar-brand" href="#">
               <img
@@ -80,12 +82,15 @@
                   >Privacy Policy</a
                 >
               </li>
+            </ul>
+            <ul class="navbar nav ms-auto">
               <li class="nav-item">
-                <div class="text-right ms-5">
-                  <button type="button" class="btn btn-primary btn-rounded">
-                    Primary
-                  </button>
-                </div>
+                <button
+                  type="button"
+                  class="btn btn-primary rounded-pill mx-lg-5 px-4 py-0 fw-bold"
+                >
+                  Login
+                </button>
               </li>
             </ul>
           </div>
@@ -136,7 +141,7 @@
         <div class="container text-center mt-3">
           <div class="row mb-3 text-white text-center mt-3">
             <div class="col-lg-6 col-12 text-center">
-              <div class="box border">
+              <div class="box pt-2">
                 <h2 class="mb-3 mt-5">FBA <br />Fulfillment by Amazon</h2>
                 <p class="px-5 py-3 h3 fw-light text-break txt">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
@@ -147,7 +152,7 @@
               </div>
             </div>
             <div class="col-lg-6 col-md-12">
-              <div class="box border">
+              <div class="box pt-2">
                 <h2 class="mb-3 mt-5">SEO <br />Search Engine Optimization</h2>
 
                 <p class="px-5 py-3 h3 fw-light text-break txt">
@@ -162,7 +167,7 @@
           </div>
           <div class="row mb-5 text-white">
             <div class="col-lg-6 col-12">
-              <div class="box border">
+              <div class="box pt-2">
                 <h2 class="mb-3 mt-5">PPC <br />Pay Per Click Advertising</h2>
                 <p class="px-5 py-3 h3 fw-light text-break txt">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -173,7 +178,7 @@
               </div>
             </div>
             <div class="col-lg-6 col-12">
-              <div class="box border">
+              <div class="box pt-2">
                 <h2 class="mb-3 mt-5">
                   CRO <br />Conversion Rate Optimization
                 </h2>
@@ -218,33 +223,91 @@
               </p>
             </div>
           </div>
+          <form>
+            <div class="row text-sm-start ms-md-5 ms-3">
+              <div class="col-10 p-0 text-white ms-md-5 mb-5 border-bottom">
+                <h1>Get in touch</h1>
+              </div>
 
-          <div class="row text-sm-start ms-md-5 ms-3">
-            <div class="col-10 p-0 text-white ms-md-5 mb-5 border-bottom">
-              <h1>Get in touch</h1>
+              <div class="col-md-5 col-10 ms-md-5 p-0">
+                <input
+                  type="text"
+                  class="form-control bg-transparent text-white mb-2 placeholder-white py-3"
+                  placeholder="Name"
+                  aria-label="E-mail"
+                />
+                <input
+                  type="email"
+                  class="form-control bg-transparent text-white placeholder-white py-3"
+                  placeholder="Email"
+                  aria-label="E-mail"
+                />
+              </div>
+              <div
+                class="col-md-5 col-10 mb-3 mt-md-0 mt-2 px-0 pe-md-0 ps-md-2"
+              >
+                <textarea
+                  rows="3"
+                  type="text"
+                  class="form-control bg-transparent text-white placeholder-white pb-5"
+                  placeholder="Message"
+                  aria-label="Message"
+                ></textarea>
+              </div>
             </div>
-            <div class="col-md-5 col-10 ms-md-5 p-0">
-              <input
-                type="email"
-                class="form-control bg-transparent text-white mb-2 placeholder-white py-3"
-                placeholder="Name"
-                aria-label="E-mail"
-              />
-              <input
-                type="email"
-                class="form-control bg-transparent text-white placeholder-white py-3"
-                placeholder="E-mail"
-                aria-label="E-mail"
-              />
+            <div class="text-center my-4">
+              <button
+                type="submit"
+                class="btn btn-primary rounded-pill mx-5 px-4 py-1"
+              >
+                Submit
+              </button>
             </div>
-            <div class="col-md-5 col-10 mb-3 mt-md-0 mt-2 px-0 pe-md-0 ps-md-2">
-              <textarea
-                rows="3"
-                type="text"
-                class="form-control bg-transparent text-white placeholder-white pb-5"
-                placeholder="Message"
-                aria-label="Message"
-              ></textarea>
+          </form>
+          <div class="container text-center mt-5">
+            <div class="row mt-5">
+              <div class="col-12 mx-0 text-white">
+                <i class="bi bi-facebook mx-1 logo"></i>
+                <i class="bi bi-instagram mx-1 logo"></i>
+                <i class="bi bi-linkedin mx-1 logo"></i>
+                <i class="bi bi-twitter mx-1 logo"></i>
+                <i class="bi bi-youtube mx-1 logo"></i>
+                @deepseecommerce
+              </div>
+              <div class="col-12 mt-4 text-white">
+                <p class="mb-0">
+                  Deepsee Commerce, 150 E B St Lbby #1810, Casper WY 82601,
+                  United States
+                </p>
+              </div>
+              <div class="col-12 text-white mt-4">
+                <a
+                  href="#"
+                  class="link-light border-end border-white link-style px-2"
+                  >Privacy & Cookies Policy</a
+                >
+                <a
+                  href="#"
+                  class="link-light border-end border-white link-style px-2"
+                  >Web Terms of Use</a
+                >
+                <a
+                  href="#"
+                  class="link-light border-end border-white link-style px-2"
+                  >Customer Terms & Conditions</a
+                >
+                <a
+                  href="#"
+                  class="link-light border-end border-white link-style px-2"
+                  >Accessibility</a
+                >
+              </div>
+              <div class="col-12 mb-4 text-white mt-4">
+                <p>
+                  &#169; 2022 Copyright: DeepseeCommerce.com. All Rights
+                  Reserved.
+                </p>
+              </div>
             </div>
           </div>
         </div>
