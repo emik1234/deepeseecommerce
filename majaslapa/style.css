@@ -1,11 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 body,
 html {
-  background-image: linear-gradient(
-    rgba(115, 194, 201, 255) 40%,
-    rgba(115, 194, 201, 0.795),
-    rgba(115, 194, 201, 255),
-    rgba(75, 168, 175, 255)
-  );
+  background-color: rgba(115, 194, 201, 255);
+}
+
+.text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.text-box {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
 
 .bg-img {
@@ -46,6 +53,33 @@ html {
 
 .link-style {
   text-decoration: none;
+}
+
+.btn {
+  background-color: rgba(39, 90, 145, 255);
+}
+
+.bottom-gradient {
+  background: linear-gradient(
+    rgba(115, 194, 201, 255),
+    rgba(75, 168, 175, 255)
+  );
+}
+
+.text-background {
+  background: linear-gradient(
+    rgba(115, 194, 201, 255),
+    rgba(75, 168, 175, 255) 30%,
+    rgba(115, 194, 201, 255) 100%
+  );
+}
+
+.middle-gradient {
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.192) 0,
+    rgba(115, 194, 201, 255) 65%
+  );
 }
 
 @media (max-width: 767px) {
