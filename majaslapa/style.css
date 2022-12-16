@@ -21,6 +21,12 @@ html {
   background-size: contain;
 }
 
+
+.fb {
+  color: white;
+}
+
+
 .box {
   aspect-ratio: 1 / 1;
   margin-bottom: 10px;
