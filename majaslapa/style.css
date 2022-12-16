@@ -19,13 +19,14 @@ html {
   background-image: url("images/deepseeLogo.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+  width: 100%;
 }
 
-
-.fb {
-  color: white;
+@media (max-width: 360px) {
+  .nav-logo {
+    max-width: 60vw;
+  }
 }
-
 
 .box {
   aspect-ratio: 1 / 1;
