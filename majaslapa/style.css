@@ -13,6 +13,7 @@ html {
 .text-box {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
+  line-height: 2;
 }
 
 .bg-img {
@@ -24,7 +25,7 @@ html {
 
 @media (max-width: 360px) {
   .nav-logo {
-    max-width: 60vw;
+    max-width: 50vw;
   }
 }
 
@@ -38,6 +39,16 @@ html {
     rgba(75, 168, 175, 255),
     rgba(111, 190, 197, 0.767)
   );
+}
+
+.navbar-links {
+  font-size: 17px;
+}
+
+@media (max-width: 810px) {
+  .navbar-links {
+    font-size: 14px;
+  }
 }
 
 .gap {
@@ -93,6 +104,10 @@ html {
   );
 }
 
+.ordered-list li {
+  margin-bottom: 20px;
+}
+
 .footer {
   font-size: 11px;
 }
@@ -100,5 +115,14 @@ html {
 @media (max-width: 767px) {
   #navbarNav {
     background-color: rgba(255, 255, 255, 0.185);
+  }
+
+  #navbarNav a,
+  button {
+    margin-left: 20px;
+  }
+
+  .navbar-links {
+    font-size: 17px;
   }
 }
