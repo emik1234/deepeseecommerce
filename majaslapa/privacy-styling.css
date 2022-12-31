@@ -4,4 +4,9 @@ body,
 html {
   background-color: rgba(115, 194, 201, 255);
   font-family: "Montserrat", sans-serif;
+  line-height: 2;
+}
+
+li {
+  margin-bottom: 15px;
 }
