@@ -16,6 +16,28 @@ html {
   line-height: 2;
 }
 
+@media (max-width: 992px) {
+  .text-box {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .text-box {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  .text-box {
+    font-size: 3vw;
+  }
+}
+
+.header {
+  font-family: "Montserrat", sans-serif;
+}
+
 .top {
   position: absolute;
   width: 100%;
@@ -35,16 +57,42 @@ html {
 }
 
 #background-video {
-  width: 100%;
+  width: 100vw;
   position: absolute;
   right: 0;
   bottom: 0;
   top: 0;
+  opacity: 1;
 }
 
-@media (max-width: 360px) {
+.background-image {
+  width: 100vw;
+  aspect-ratio: 1920 / 950;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0;
+}
+
+@media (max-width: 700px) {
+  .background-image {
+    opacity: 1;
+  }
+
+  #background-video {
+    opacity: 0;
+  }
+}
+
+.nav-logo {
+  aspect-ratio: 216 / 40;
+}
+
+@media (max-width: 400px) {
   .nav-logo {
     max-width: 50vw;
+    height: auto;
   }
 }
 
@@ -139,15 +187,20 @@ html {
 
 @media (max-width: 767px) {
   #navbarNav {
-    background-color: rgba(255, 255, 255, 0.185);
+    background: linear-gradient(
+      rgba(88, 175, 182, 0.1),
+      rgba(88, 175, 182, 0.8) 10%,
+      rgba(88, 175, 182, 1) 80%
+    );
   }
 
-  #navbarNav a,
-  button {
+  #navbarNav a {
     margin-left: 20px;
+    font-size: 12px;
   }
 
-  .navbar-links {
-    font-size: 17px;
+  .tst {
+    margin-left: 16px;
+    font-size: 12px;
   }
 }
