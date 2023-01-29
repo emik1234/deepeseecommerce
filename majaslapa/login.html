@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/loginPage.css" />
+    <title>Login</title>
+    <link rel="shortcut icon" href="images/web-icon.jpeg" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md py-3 px-0 mx-0 text-box mb-3">
+      <div>
+        <a class="navbar-brand align-middle" href="index.html">
+          <img
+            class="nav-logo px-3"
+            src="images/logoCaption.png"
+            alt="Logo"
+            width="216"
+            height="40"
+        /></a>
+      </div>
+    </nav>
+
+    <div class="container-fluid position-relative mx-0">
+      <div class="box2 text-center">
+        <div class="row mx-0">
+          <div class="col-12">
+            <h1 class="text-white text-center my-5">Log In</h1>
+          </div>
+        </div>
+        <form action="#" method="get">
+          <div class="row text-center d-flex justify-content-center">
+            <div class="col-7 mb-3 p-0 mx-0">
+              <input
+                type="email"
+                class="mx-0 form-control bg-transparent text-white mb-2 placeholder-white"
+                placeholder="E-mail"
+                aria-label="E-mail"
+              />
+              <input
+                type="password"
+                class="mx-0 form-control bg-transparent text-white placeholder-white"
+                placeholder="Password"
+                aria-label="Password"
+              />
+            </div>
+            <div class="col-7 text-end">
+              <p id="wrong" class="wrong-password text-start"></p>
+            </div>
+
+            <div class="col-7 text-end text my-4">
+              <button
+                type="submit"
+                class="btn text-white rounded-pill px-4 py-1"
+                onclick="checkPassword()"
+              >
+                Login
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      function checkPassword() {
+        wrong.innerHTML = "Wrong credentials.";
+      }
+    </script>
+  </body>
+</html>
